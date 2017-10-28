@@ -117,7 +117,7 @@ public class TestService {
 
 	@Transactional(propagation = Propagation.REQUIRES_NEW)
 	public void testTransaction2(){
-		System.out.println(TransactionSynchronizationManager.getCurrentTransactionName()); //com.example.demo.TestService.testTransaction1
+		System.out.println(TransactionSynchronizationManager.getCurrentTransactionName()); //com.example.demo.TestService.testTransaction2
 	}
 
 }
